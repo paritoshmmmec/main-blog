@@ -30,7 +30,7 @@ frontmatter:
   twitter: '@paritosh_pi'
 
 sitemap:
-  changefreq: monthly
+  changefreq: daily
   filename: sitemap.xml
   priority: 0.5
 
