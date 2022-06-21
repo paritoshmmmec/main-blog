@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: The Zen of Python
-date: 2022-03-12
+date: 2022-06-20
 description: The Zen of Python, by Tim Peters
 tags : [
     "Python",
