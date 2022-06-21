@@ -1,6 +1,6 @@
 baseurl: ''
 languageCode: en-us
-title: Minimalist
+title: "Paritosh"
 googleAnalytics: ""
 disqusShortname: ""
 preserveTaxonomyNames: true
@@ -20,15 +20,14 @@ permalinks:
   writing: /:year/:month/:day/:slug/
 
 params:
-  description: "Minimalist theme for Hugo"
+  description: "Paritosh Blog"
 
 frontmatter:
-  author: Example
-  github: 'https://github.com/example'
-  facebook: 'https://facebook.com/example'
+  author: "Paritosh Baghel"
+  github: 'https://github.com/paritoshmmmec'
   og_image: 
-  sitename: Minimalist
-  twitter: '@twitter'
+  sitename: "Paritosh Blog"
+  twitter: '@paritosh_pi'
 
 sitemap:
   changefreq: monthly

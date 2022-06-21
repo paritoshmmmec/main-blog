@@ -1,4 +1,4 @@
 ---
-title: Home
+title: Main Page of my blog
 ---
 
