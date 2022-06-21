@@ -2,14 +2,14 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "{{ .Site.Title }}",
   "home_page_url": "{{ .Site.BaseURL }}",
-  "feed_url": "https://ronaldsvilcins.com/feed.json",
+  "feed_url": "https://paritosh.dev/feed.json",
   "description": "{{ .Site.Params.description }}",
-  "icon": "https://ronaldsvilcins.com/assets/apple-touch-icon.png",
-  "favicon": "https://ronaldsvilcins.com/assets/favicon.ico",
+  "icon": "https://paritosh.dev/assets/apple-touch-icon.png",
+  "favicon": "https://paritosh.dev//assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "Ronalds Vilcins",
-    "url": "https://ronaldsvilcins.com/"
+    "name": "Paritosh Baghel",
+    "url": "https://paritosh.dev/"
   },
   "items": [
     {{ $list := (where .Site.RegularPages "Section" "writing") }}
@@ -28,8 +28,8 @@
       "date_published": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "date_modified": "{{ .Date.Format `2016-02-09T14:22:00-07:00` | safeHTML }}",
       "author": {
-        "name": "Ronalds Vilcins",
-        "url": "https://ronaldsvilcins.com/"
+        "name": "Paritosh Baghel",
+        "url": "https://paritosh.dev/"
       }
     }{{ if ne (add $index 1) $len }},{{ end }}
     {{ end }}
