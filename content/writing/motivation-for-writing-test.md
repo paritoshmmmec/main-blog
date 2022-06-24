@@ -1,8 +1,8 @@
 ---
 author: Paritosh Baghel
-title: The motivation for Writing Tests First
+title: Motivation for Writing Tests First
 date: 2021-03-12
-description: The motivation for Writing Tests First
+description: Motivation for Writing Tests First
 math: true
 tags : [
     "TDD",
