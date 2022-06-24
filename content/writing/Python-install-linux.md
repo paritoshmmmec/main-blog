@@ -62,5 +62,3 @@ python3.9 --version
 
 ## Conclusion 
 We’ve shown you how to install Python 3.9 on your Debian 10 system. You can now create a virtual environment and start developing your Python projects.
-
-If you have any questions or feedback, feel free to comment below.
