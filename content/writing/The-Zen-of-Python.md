@@ -5,7 +5,7 @@ date: 2022-06-20
 description: The Zen of Python, by Tim Peters
 tags : [
     "Python",
-    "Begineer",
+    "Beginner",
 ]
 ---
 
