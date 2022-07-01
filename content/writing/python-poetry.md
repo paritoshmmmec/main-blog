@@ -1,8 +1,8 @@
 ---
 author: Paritosh Baghel
-title: "Python: Poetry" 
+title: "Poetry: Manage Python dependencies and packages" 
 date: 2022-06-30
-description: "Python: Poetry" 
+description: "Poetry: Manage Python dependencies and packages" 
 tags : [
     "Python",
     "Beginner",
