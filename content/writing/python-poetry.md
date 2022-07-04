@@ -55,7 +55,7 @@ Let us install the dependencies by running the following command:
 poetry install 
 ```
 
-This command will also create a virtual environment for you which is great. Now lets us add a `hellopoetry.py` in the root directory and add the following code:
+This command will also create a virtual environment for you which is great. Now let's add a `hellopoetry.py` in the root directory and add the following code:
 
 ```python
 print("Hello Poetry")
@@ -95,7 +95,7 @@ Add a specific version to the project by using this command:
 Add a specific version to the project by modifying `pyproject.toml`:
 
 ```bash 
- //Add dependencies  manually and then run the following command
+ //Add dependencies manually and then run the following command
  poetry update
 ```
 
