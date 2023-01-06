@@ -69,11 +69,11 @@ for (country, number_of_trophies) in number_of_trophies_won_by_country.items():
 
 ```
 
-### How do I loop a dictionary with key and value in one shot?
+### How do I loop a dictionary with index of each item?
 
 ```python
 
 for (index, country) in enumerate(number_of_trophies_won_by_country):
-  print(f"index: {index} {country} won {number_of_trophies}")
+  print(f"index: {index} {country} won {number_of_trophies_won_by_country[country]}")
 
 ```
