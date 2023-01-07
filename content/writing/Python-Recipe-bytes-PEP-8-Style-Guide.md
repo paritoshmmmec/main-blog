@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "Python Recipe bytes: PEP 8 Style Guide"
-date: 2023-01-04
+date: 2023-01-06
 description: "Python Recipe bytes: PEP 8 Style Guide" 
 tags : [
     "Python"
