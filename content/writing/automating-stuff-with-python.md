@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "Automate stuff with python"
-date: 2022-12-20
+date: 2023-01-07
 description: "Automate stuff with python"
 tags : [
     "Automate",
