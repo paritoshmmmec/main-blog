@@ -3,4 +3,4 @@ title: Main Page of my blog
 ---
 ## Welcome to my blog
 
-Hi, My Name is Paritosh Baghel. I work as Full Stack Engineer and write about various Technlogies.
+Hi, My name is Paritosh Baghel. As a Full Stack Engineer, I write about different programming languages and technologies.
