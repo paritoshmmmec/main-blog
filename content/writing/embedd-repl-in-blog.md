@@ -25,5 +25,5 @@ markup:
 
 Second, Declare an IFrame in markdown in order to display it.
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@paritoshsingh/pythonprint#main.py?embed=true&output=embed"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@paritoshsingh/pythonprint?embed=true&output=embed"></iframe>
 
