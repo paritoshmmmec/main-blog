@@ -41,5 +41,9 @@ outputFormats:
   JSON:
     mediatype: application/json
     baseName: feed
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 
