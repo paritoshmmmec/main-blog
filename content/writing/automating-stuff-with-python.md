@@ -1,11 +1,12 @@
 ---
 author: Paritosh Baghel
-title: "Automate stuff with python"
+title: "Automate stuff with python - Calibre"
 date: 2023-01-07
-description: "Automate stuff with python"
+description: "Automate stuff with python - Calibre"
 tags : [
     "Automate",
     "python",
+    "Calibre"
 ]
 ---
 
@@ -29,6 +30,7 @@ One of the challenges with Calibre is that it organizes books into nested folder
     
 
 ```python
+
 import pathlib
 import shutil
     
@@ -39,6 +41,7 @@ file_list_source = [str(path) for path in pathlib.Path(sourcefolder).rglob("*.*"
 for source_file in file_list_source:
   if 'pdf' in source_file or 'epub' in source_file or 'mobi' in source_file:
     shutil.copy(source_file, destination)
+
 ```
 
 ### Conclusion
