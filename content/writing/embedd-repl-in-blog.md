@@ -9,4 +9,4 @@ tags : [
 ]
 ---
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@paritoshsingh/pythonprint#main.py?embed=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@paritoshsingh/pythonprint?embed=true&output=embed"></iframe>
