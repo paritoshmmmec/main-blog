@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: Learn Polymorphism through Python
-date: 2023-01-09
+date: 2023-01-11
 description: Learn Polymorphism through Python
 tags : [
     "Python",
