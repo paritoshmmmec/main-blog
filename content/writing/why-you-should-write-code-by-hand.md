@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "Why you should write code by hand?"
-date: 2023-01-11
+date: 2023-01-12
 description: Why you should write code by hand?
 tags : [
     "learning",
