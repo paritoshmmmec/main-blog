@@ -20,7 +20,7 @@ One of the main benefits of precommit hooks is that they allow developers to cat
 Another benefit of precommit hooks is that they can help enforce consistent coding conventions and best practices across a team of developers. For example, a pre-commit hook that checks for naming conventions can help ensure that variable names are clear and descriptive, making the code more readable and maintainable. Similarly, a pre-commit hook that checks for security issues can help prevent the introduction of vulnerabilities into the codebase.
 Pre-commit hooks can also be used to automate repetitive tasks, such as running the test suite, updating documentation, etc. This can save developers time and effort by automating tasks that would otherwise need to be done manually.
 
-One of my personnel benefit of precommit hooks is that they help me keep my code clean in local. I like to keep my plate neat and clean. 
+One of my personal benefits of pre-commit hooks is that they help me keep my code clean locally. I like to keep my plate neat and clean.
 
 Finally, precommit hooks can help increase the overall quality of the codebase. By catching errors early and enforcing consistent conventions, precommit hooks can help improve the readability and maintainability of the code. This can ultimately save time and effort in the long run, as it makes it easier for developers to understand and work with the code.
 In conclusion, precommit hooks may take some time to set up and configure initially, but they can ultimately save developers time and effort in the long run. By catching errors early, enforcing consistent conventions, automating repetitive tasks, and increasing the quality of the codebase, precommit hooks can be a valuable tool for any development team.
