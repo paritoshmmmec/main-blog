@@ -1,8 +1,8 @@
 ---
 author: Paritosh Baghel
-title: "Why precommit are not waste of time?"
+title: "Precommit are not waste of time"
 date: 2023-01-14
-description: "Why precommit are not waste of time?" 
+description: "Precommit are not waste of time" 
 tags : [
     "precommit"
 ]
