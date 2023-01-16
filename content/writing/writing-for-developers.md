@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "Writing for developers"
-date: 2023-01-17
+date: 2023-01-16
 description: Writing for developers
 tags : [
     "Soft skills",
