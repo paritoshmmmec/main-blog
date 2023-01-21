@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "Read code to write better code"
-date: 2023-01-20
+date: 2023-01-21
 description: "Read code to write better code"
 tags : [
     "writing",
