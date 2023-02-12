@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "CPU-Bound vs IO-Bound: Understanding the Differences in Multithreaded Programming"
-date: 2023-01-07
+date: 2023-02-12
 description: "CPU-Bound vs IO-Bound"
 tags : [
     "CPU-Bound",
