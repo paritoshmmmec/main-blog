@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: Kubernetes - Control Plane vs Data Plane 
-date: 2023-01-13
+date: 2023-02-15
 description: "Control Plane vs Data Plane"
 tags : [
     "Control Plane",
