@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "What is upstream and downstream dependencies?"
-date: 2022-12-20
+date: 2023-02-24
 description: "What is upstream and  dependencies?"
 tags : [
     "upstream and downstream"
