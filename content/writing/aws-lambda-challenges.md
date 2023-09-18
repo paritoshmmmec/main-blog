@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "The Dark Side of AWS Lambda: Challenges and Considerations"
-date: 2023-09-12
+date: 2023-09-14
 description: "The Dark Side of AWS Lambda: Challenges and Considerations"
 tags : [
     "AWS Lambda",
