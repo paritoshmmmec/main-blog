@@ -1,7 +1,7 @@
 ---
 author: Paritosh Baghel
 title: "AWS Lambda: Revolutionizing Serverless Computing"
-date: 2023-01-16
+date: 2023-09-12
 description: "AWS Lambda: Revolutionizing Serverless Computing"
 tags : [
     "AWS Lambda",
