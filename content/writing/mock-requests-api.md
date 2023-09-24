@@ -30,11 +30,13 @@ Python offers various libraries and tools to help you mock request operations ef
 ## Using requests-mock:
 requests-mock is a dedicated library for mocking HTTP requests in Python. To use it, first, install the library using pip:
 
-```
-pip install requests-mock
-```
 
-``` 
+{{< highlight bash >}}
+pip install requests-mock
+{{< /highlight >}}
+
+
+
 {{< highlight python >}}
 
 import requests_mock
@@ -46,7 +48,7 @@ with requests_mock.Mocker() as mocker:
     # Your code that makes the request
 
 {{< /highlight >}}
-```
+
 
 ## Using unittest.mock `side_effect` method:
 
