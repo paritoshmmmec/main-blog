@@ -23,13 +23,6 @@ Before diving into the specifics, let's understand why mocking requests is impor
 
  3. Speed: Real network requests can be slow and unreliable. Mocking requests allows you to run tests quickly and consistently without relying on external factors.
 
-#### Directory structure
-
-* src
-  * sut.py (subject under test file)
-* tests
-  * test_sut.py
-
 # Tools for Mocking Requests
 
 Python offers various libraries and tools to help you mock request operations effectively. Two popular options are the requests-mock library and the built-in unittest.mock module.
@@ -47,7 +40,8 @@ pip install requests-mock
 import requests_mock
 
 with requests_mock.Mocker() as mocker:
-    mocker.get('https://api.example.com/data', text='{"key": "value"}')
+    mocker.get('https://api.example.com/data',
+                       text='{"key": "value"}')
     
     # Your code that makes the request
 
@@ -58,7 +52,7 @@ with requests_mock.Mocker() as mocker:
 
 The unittest.mock module, part of the Python standard library, can also be used for request mocking. Here's an example of how to mock a GET request using unittest.mock:
 
-```
+
 {{< highlight python >}}
 from unittest.mock import patch
 import requests
@@ -77,11 +71,11 @@ def mock_get(*args, **kwargs):
 with patch('requests.get', side_effect=mock_get):
     # Your code that makes the request
 {{< /highlight >}}
-```
+
 
 ## Using unittest.mock `return_value` method:
 
-```
+
 {{< highlight python >}}
 from unittest.mock import patch
 import requests
@@ -96,7 +90,7 @@ class MockedResponse:
 with patch('requests.get', return_value=MockedResponse()):
     # Your code that makes the request
 {{< /highlight >}}
-```
+
 
 
 # Best Practices for Mocking Requests
