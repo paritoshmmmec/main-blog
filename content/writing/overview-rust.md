@@ -1,10 +1,10 @@
 ---
 author: Paritosh Baghel
-title: "Rust overview"
+title: "Rust notes"
 date: 2023-10-21
-description: "Rust overview"
+description: "Rust notes"
 tags : [
-    "Rust",
+    "Rust notes",
 ]
 ---
 
