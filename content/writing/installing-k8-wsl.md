@@ -187,4 +187,4 @@ curl --insecure -k -X POST -H 'Content-Type: application/yaml' -H "Authorization
 
 Wow, it succeeded. YAY
 
-Congrates, now you are ready to play around to create on demand pod for your need.
+Congrates, now you are ready to play around with k8 cluster.
