@@ -6,10 +6,7 @@
     <meta name="author" content="Paritosh - {{ .Site.BaseURL }}">
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-{{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/google_news.html" . }}
-  {{ template "_internal/schema.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+
   <link rel="canonical" href="{{ .Permalink | absURL }}">
   <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
