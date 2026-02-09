@@ -1,3 +1,10 @@
-  </article>
+      </main>
+      <footer class="site-footer">
+        <p>© {{ now.Format "2006" }} {{ .Site.Title }} · Crafted with Hugo.</p>
+        {{ with .Site.Params.github }}
+          <a href="{{ . }}" rel="noopener" target="_blank">GitHub</a>
+        {{ end }}
+      </footer>
+    </div>
   </body>
 </html>

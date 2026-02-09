@@ -1,5 +1,7 @@
 ---
-title: About me
+title: Paritosh Studio
 ---
 
-Hi, My name is Paritosh Baghel. As a Full Stack Engineer and Software designer, I write about different programming languages and technologies.
+Hi, I'm **Paritosh Baghel** — a full-stack engineer focused on pragmatic architecture, clean systems, and thoughtful developer experience.
+
+I write practical essays on software design, backend engineering, and Python/Rust craftsmanship.

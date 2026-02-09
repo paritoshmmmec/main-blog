@@ -5,32 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Paritosh - {{ .Site.BaseURL }}" />
     <title>
-      {{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{
-      .Site.Title }}{{ end }}
+      {{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}
     </title>
-    <meta name="description" content="{{ if ne .Description "" }}{{ .Description
-    }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-
+    <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink | absURL }}" />
-    <link
-      rel="alternate"
-      type="application/atom+xml"
-      title="{{ .Site.Title }}"
-      href="{{ .Site.BaseURL }}atom.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/json"
-      title="{{ .Site.Title }}"
-      href="{{ .Site.BaseURL }}feed.json"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="
-    />
-    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle"
-    "compressed") | minify }}
+    <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
+    <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=" />
+    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     <style>
       {{ $styles.Content | safeCSS }}
     </style>
@@ -47,8 +29,7 @@
         "license": "{{ .Site.Params.Copyright }}"
       }
     </script>
-    {{ else if .IsPage }} {{ $author := or (.Params.author) (.Site.Author.name)
-    }} {{ $org_name := .Site.Title }}
+    {{ else if .IsPage }} {{ $author := or (.Params.author) (.Site.Author.name) }} {{ $org_name := .Site.Title }}
     <script type="application/ld+json">
       {
           "@context": "http://schema.org",
@@ -103,17 +84,12 @@
   </head>
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
-  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end
-  }}">
-  <header>
-    {{ if .IsHome }}
-    <h1><a href="/">{{ .Site.Title }}</a></h1>
-    {{ else }}
-    <h1><a href="/">{{ .Site.Title }}</a></h1>
-    /
-    <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-    {{ end }}
-  </header>
-
-  <article></article>
-</html>
+  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
+    <div class="site-shell">
+      <header class="site-header">
+        <p class="site-kicker">Engineering Notes</p>
+        <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
+        <p class="site-subtitle">Building thoughtful software systems, one clear idea at a time.</p>
+        {{ partial "menu.html" . }}
+      </header>
+      <main class="site-main">

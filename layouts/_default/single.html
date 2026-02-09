@@ -1,3 +1,11 @@
 {{ partial "header.html" . }}
-{{ .Content }}
+
+<article class="post">
+  <p class="post-meta">{{ .Date.Format "Jan 02, 2006" }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
+<p><a href="/">← Back to home</a></p>
+
 {{ partial "footer.html" . }}

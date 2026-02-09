@@ -1,6 +1,6 @@
 baseurl: 'https://www.paritosh.dev'
 languageCode: en-us
-title: "Paritosh Baghel"
+title: "Paritosh Studio"
 googleAnalytics: ""
 disqusShortname: ""
 preserveTaxonomyNames: true
@@ -20,13 +20,14 @@ permalinks:
   writing: /:year/:month/:day/:slug/
 
 params:
-  description: "Paritosh Blog"
+  description: "Engineering essays, software notes, and practical architecture insights by Paritosh Baghel."
+  github: "https://github.com/paritoshmmmec"
 
 frontmatter:
   author: "Paritosh Baghel"
   github: 'https://github.com/paritoshmmmec'
   og_image: 
-  sitename: "Paritosh Blog"
+  sitename: "Paritosh Studio"
   twitter: '@paritosh_pi'
 
 sitemap:
